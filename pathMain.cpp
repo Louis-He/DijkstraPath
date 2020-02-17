@@ -4,8 +4,8 @@ std::priority_queue<intersection*, std::vector<intersection*>,  Compare> interse
 
 void initializedataStructure(){
     intersections.push_back(intersection(500, 400, 0));  // 0
-    intersections.push_back(intersection(600, 450, 1));  
-    intersections.push_back(intersection(550, 450, 2));
+    intersections.push_back(intersection(800, 450, 1));  
+    intersections.push_back(intersection(650, 450, 2));
     intersections.push_back(intersection(400, 300, 3));
     intersections.push_back(intersection(200, 350, 4));
     intersections.push_back(intersection(800, 550, 5));

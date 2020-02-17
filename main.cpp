@@ -33,7 +33,7 @@ int main(int argc, char** argv)
 
    Gtk::Window win;
    win.resize(1024,768);
-   win.set_title("DrawingArea");
+   win.set_title("Dijkstra C++ Demo");
 
    Gtk::Grid m_Grid;
    win.add(m_Grid);

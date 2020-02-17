@@ -48,6 +48,21 @@ bool MyArea::on_draw(const Cairo::RefPtr<Cairo::Context>& cr)
         cr->line_to(intersections[streets[i][j].to].x, intersections[streets[i][j].to].y);
         cr->restore();  // back to opaque black
         cr->stroke();
+
+        cr->save();
+        cr->set_source_rgb(0.0, 0.0, 0.0);
+
+        int text_width;
+        int text_height;
+
+        auto layout = create_pango_layout(std::to_string(int(streets[i][j].time)));
+        layout->get_pixel_size(text_width, text_height);
+        cr->move_to((intersections[streets[i][j].from].x + intersections[streets[i][j].to].x) / 2, 
+                      (intersections[streets[i][j].from].y + intersections[streets[i][j].to].y) / 2);
+        layout->show_in_cairo_context(cr);
+
+        cr->restore();
+        cr->stroke();
       }
     }
   }
