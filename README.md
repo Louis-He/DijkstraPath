@@ -1,7 +1,7 @@
 # DijkstraPath
 Dijkstra Path Demo Application in C++
 
-![](https://img.shields.io/badge/https://img.shields.io/badge/C++-PASS-brightgreen.svg)
+![](https://img.shields.io/badge/C++-PASS-brightgreen.svg)
 
 ## Introduction
 This project is for Dijkstra path finding algorithm visualization.
