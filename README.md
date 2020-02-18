@@ -16,3 +16,11 @@ Already tested on MAC OS X > 10.14. Uncertain for other versions of OS system, b
 ### How to make executable and run
 1. Simply hit in the directory ```make```.
 2. Run the excutable DijkstraDemo.
+
+
+## Screenshot of the application
+![alt text](https://github.com/Louis-He/DijkstraPath/blob/master/demo.png)
+
+## Further development
+1. More features might be added, but not promising.
+2. Open for any ideas.
