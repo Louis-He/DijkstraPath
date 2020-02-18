@@ -1,0 +1,18 @@
+# DijkstraPath
+Dijkstra Path Demo Application in C++
+
+![](https://img.shields.io/badge/https://img.shields.io/badge/C++-PASS-brightgreen.svg)
+
+## Introduction
+This project is for Dijkstra path finding algorithm visualization.
+
+
+![](https://img.shields.io/badge/OS%20X-10.15-brightgreen.svg)
+![](https://img.shields.io/badge/OS%20X-10.14-brightgreen.svg)
+
+Already tested on MAC OS X > 10.14. Uncertain for other versions of OS system, but should work.
+
+
+### How to make executable and run
+1. Simply hit in the directory ```make```.
+2. Run the excutable DijkstraDemo.
